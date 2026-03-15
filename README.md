@@ -19,7 +19,7 @@ You can edit the app settings in two ways
 1) Start the app and go to "File" -> "Settings" and edit, click "Save", done.
 2) Open the settings.yml directly in your favourite text editor, and change it.
 
-3) settings.yml struktur:
+settings.yml struktur:
 
 #### settings.yml
 
