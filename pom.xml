@@ -11,7 +11,7 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <main.class>se.osbe.jetski.JetskiRunnerApp</main.class>
+    <main.class>se.osbe.jetski.JetskiDesktop</main.class>
     <!-- dependency versions -->
     <jackson.version>2.15.2</jackson.version>
   </properties>
@@ -75,7 +75,7 @@
           <appendAssemblyId>false</appendAssemblyId>
           <archive>
             <manifest>
-              <mainClass>se.osbe.jetski.JetskiRunnerApp</mainClass>
+              <mainClass>se.osbe.jetski.JetskiDesktop</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

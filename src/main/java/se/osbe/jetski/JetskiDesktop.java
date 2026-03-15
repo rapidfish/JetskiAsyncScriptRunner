@@ -25,9 +25,9 @@ class ScriptConfig {
     public String tooltip;
 }
 
-public class JetskiRunnerApp extends JFrame {
+public class JetskiDesktop extends JFrame {
 
-    public static final String APP_NAME = "Jetski Async Script Runner";
+    public static final String APP_NAME = "Jetski Desktop";
     private static final String CONFIG_FILE_NAME = "settings.yml";
 
     private JTextArea outputArea;
@@ -37,7 +37,7 @@ public class JetskiRunnerApp extends JFrame {
     private JButton clearButton;
     private int activeScriptsCount = 0;
 
-    public JetskiRunnerApp() {
+    public JetskiDesktop() {
         setTitle(APP_NAME);
         setSize(850, 500);
 
@@ -183,11 +183,11 @@ public class JetskiRunnerApp extends JFrame {
                 dialog.dispose();
 
                 // --- NYTT: Spara fönstrets nuvarande position och storlek ---
-                Rectangle currentBounds = JetskiRunnerApp.this.getBounds();
+                Rectangle currentBounds = JetskiDesktop.this.getBounds();
 
-                JetskiRunnerApp.this.dispose();
+                JetskiDesktop.this.dispose();
                 SwingUtilities.invokeLater(() -> {
-                    JetskiRunnerApp newApp = new JetskiRunnerApp();
+                    JetskiDesktop newApp = new JetskiDesktop();
 
                     // Åsidosätt standardcentreringen med de sparade värdena
                     newApp.setBounds(currentBounds);
@@ -370,7 +370,7 @@ public class JetskiRunnerApp extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new JetskiRunnerApp().setVisible(true);
+            new JetskiDesktop().setVisible(true);
         });
     }
 }

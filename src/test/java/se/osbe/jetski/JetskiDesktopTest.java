@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class JetskiRunnerAppTest {
+class JetskiDesktopTest {
 
     private final ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 
