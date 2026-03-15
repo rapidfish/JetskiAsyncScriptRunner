@@ -10,7 +10,7 @@ Coded by av Oskar Bergström 2026-03-15
 
 ### run:
 ```bash
-  java -jar target/jetski.jar
+  java -jar target/JetskiDesktop.jar
 ```
 
 Settings
