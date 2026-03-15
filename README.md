@@ -30,9 +30,9 @@ scripts:
   parameters: 'param1 param2 "param3 multi param", param4'
   tooltip: 'Script that demonstrate how params is sent!'
 - name: 'Personnummer'
-  path: 'pnr'
-  parameters: '-xj 19121212-1212'
-  tooltip: 'Script that call the Pnr command, directly, using params'
+  path: 'ls'
+  parameters: '-lash'
+  tooltip: 'Script that call ls command directly with params -lash'
 ```
 
 
